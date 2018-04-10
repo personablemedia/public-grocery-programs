@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>DFR No Cost Grocery Programs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link href="/assets/images/favicon.png" type="image/png" rel="icon">
+	<meta id="MetaDescription" name="DESCRIPTION" content="Summer Food Rocks!
+	Use our 2018 Site Finder to locate USDA Approved sites in your neighborhood.
+	All participating institutions are equal opportunity providers.
+	SFSP Free Summer Meals for Kids and Teens.
+	Summer Food Service Program 2018." />
+	<meta id="MetaKeywords" name="KEYWORDS" content="Summer Food Rocks, SFSP 2018, Summer Site Finder 2018, Free Summer Meals 2018, Summer Food Service Program 2018" />
+	<meta id="MetaAuthor" name="Martin Vicknair" content="Equal Heart, SFSP Site Finder" />
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier/1.0.3/oms.min.js"></script>
+	<script src="/assets/js/logic.js" charset="utf-8"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+<body>
+  <div class="container mx-auto">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <nav class="navbar navbar-light bg-success text-white ">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="assets/images/dfr_logo.png" alt="No Cost Grocery Programs">
+            </div>
+            <div class="col-md-8">
+              <a class="navbar-brand">Public No Cost Grocery Programs</a>
+              <div class="row">
+                <div class="col-md-1">
+                  <a href="#"><img src="assets/images/location.jpg" title="Show my location" width="20" height="20" id="geolocateButton"  onclick="getLocation()" class="rounded" alt="Geolocation"></a>
+                </div>
+                <div class="col">
+                  <input class="form-control mr-sm-2" id="pac-input" type="search" placeholder="Search by address" aria-label="Search" width="80%">
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+	{{{ body }}}
+
+		<footer>
+			<div class="row top-buffer bottom-buffer">
+			<div class="col-md-8 mx-auto" id="footer">
+				<div class="card text-center">
+				<div class="card-header">
+					<a href="https://denverfoodrescue.org">Denver Food Rescue</a>
+				</div>
+				</div>
+			</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+# SummerFoodRocks node application
